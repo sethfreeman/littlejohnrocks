@@ -7,12 +7,18 @@ architecture of the Still Spark / sethfreemanmusic.com sites.
 
 ## Status
 
-🚧 Kickstarting. The full build plan lives in
-[`LITTLEJOHN-BUILD-INSTRUCTIONS.md`](./LITTLEJOHN-BUILD-INSTRUCTIONS.md).
+✅ **Scaffolded and building.** All 9 pages exist with real content (bio, streaming/social links,
+images, tip-jar handles, YouTube videos) and `npm run build` passes. It is not a blank start —
+do not re-scaffold.
 
-The current littlejohnrocks.com is a single page (bio + music links + socials). This rebuild
-splits that content across the standard page set (Home, Music, Video, Photos, Bio, Tour, Press
-Kit, Tip Jar, Contact), populated minimally from the existing content and expanded later.
+👉 **Start here:** [`HANDOFF.md`](./HANDOFF.md) — current state, what's done, and the exact
+remaining placeholders (Formspree form ID, tour dates, accent color, GitHub remote, Vercel).
+
+The full architecture/build plan is in
+[`LITTLEJOHN-BUILD-INSTRUCTIONS.md`](./LITTLEJOHN-BUILD-INSTRUCTIONS.md) (real content and links
+in §1). The original littlejohnrocks.com was a single page (bio + music links + socials); this
+rebuild splits that across the standard page set (Home, Music, Video, Photos, Bio, Tour, Press
+Kit, Tip Jar, Contact).
 
 ## Tech stack
 
