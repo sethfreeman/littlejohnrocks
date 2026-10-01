@@ -1,6 +1,15 @@
+import { Courier_Prime } from 'next/font/google'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import Navbar from './components/Navbar'
 import './globals.css'
+
+const courierPrime = Courier_Prime({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  style: ['normal', 'italic'],
+  variable: '--font-courier',
+  display: 'swap',
+})
 
 export const metadata = {
   title: 'Little John',
@@ -9,7 +18,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={courierPrime.variable}>
       <body>
         <div className="App">
           <Navbar />
