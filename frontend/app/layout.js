@@ -1,4 +1,5 @@
 import { Courier_Prime } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/next'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import Navbar from './components/Navbar'
 import './globals.css'
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
             <p>&copy; 2026 Little John. All rights reserved.</p>
           </footer>
         </div>
+        <Analytics />
         <SpeedInsights />
       </body>
     </html>
