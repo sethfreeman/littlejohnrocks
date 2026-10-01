@@ -40,7 +40,9 @@
 }
 
 .tips-page .tip-button:hover {
-  background: #222;
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--text-bright);
   transform: translateY(-2px);
 }
 
@@ -73,4 +75,9 @@
   font-size: 0.9rem;
   color: var(--text-muted);
   word-break: break-all;
+  transition: color 0.3s ease;
+}
+
+.tips-page .tip-button:hover .tip-handle {
+  color: var(--text-bright);
 }
