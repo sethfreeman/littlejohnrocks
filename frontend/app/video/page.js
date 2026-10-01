@@ -2,25 +2,37 @@ import './video.css'
 
 export const metadata = {
   title: 'Video | Little John',
-  description: 'Watch Little John.',
+  description: 'Watch Little John music and lyric videos.',
 }
 
-// Add YouTube video IDs here as they become available, then render <iframe> embeds.
-const videos = []
+// Newest first.
+const videos = [
+  { id: '1ZHwPlZuqcA', title: '"Shoelace" — music video' },
+  { id: 'AVRjNWTetjs', title: '"Finally Got It" — lyric video' },
+  { id: 'bRVwLgBhPkA', title: '"Scared" — lyric video' },
+  { id: 'JR54SryWyfA', title: 'Derailer' },
+]
 
 export default function Video() {
   return (
     <div className="video-page">
       <h1>Video</h1>
-      {videos.length === 0 ? (
-        <p className="placeholder">
-          Videos are on the way. In the meantime, find Little John on{' '}
-          <a href="https://www.youtube.com/@littlejohn5329" target="_blank" rel="noopener noreferrer">
-            YouTube
-          </a>
-          .
-        </p>
-      ) : null}
+      <div className="video-grid">
+        {videos.map((v) => (
+          <figure className="video-item" key={v.id}>
+            <div className="video-embed">
+              <iframe
+                src={`https://www.youtube-nocookie.com/embed/${v.id}`}
+                title={v.title}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              />
+            </div>
+            <figcaption>{v.title}</figcaption>
+          </figure>
+        ))}
+      </div>
     </div>
   )
 }
