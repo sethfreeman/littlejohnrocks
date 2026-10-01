@@ -1,0 +1,93 @@
+.epk-page h1 {
+  font-size: 1.9rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-bright);
+}
+
+.epk-section {
+  margin-bottom: 2.5rem;
+}
+
+.epk-section h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--accent);
+}
+
+.epk-section p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--text);
+  margin-bottom: 1rem;
+  max-width: 760px;
+}
+
+.epk-section a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.epk-section a:hover {
+  text-decoration: underline;
+}
+
+.epk-photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.epk-photos a {
+  display: block;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.epk-photos img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.epk-photos a:hover img {
+  transform: scale(1.05);
+}
+
+.epk-note {
+  font-size: 0.9rem !important;
+  color: var(--text-muted) !important;
+  margin-top: 0.75rem;
+}
+
+.epk-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.epk-links a {
+  display: inline-flex;
+  padding: 10px 24px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.epk-links a:hover {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--text-bright);
+  transform: translateY(-2px);
+  text-decoration: none;
+}

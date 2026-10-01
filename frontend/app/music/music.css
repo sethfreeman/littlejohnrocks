@@ -1,0 +1,80 @@
+.music-page h1 {
+  font-size: 1.9rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-bright);
+}
+
+.music-page .intro {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+  max-width: 640px;
+  margin-bottom: 2rem;
+}
+
+.music-page .platforms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.music-page .platform-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 320px;
+  padding: 14px 28px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  color: var(--text);
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 17px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.music-page .platform-button:hover {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--text-bright);
+  transform: translateY(-2px);
+}
+
+.music-page .releases h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-bright);
+}
+
+.music-page .releases ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.music-page .releases li {
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.music-page .release-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-bright);
+}
+
+.music-page .release-note {
+  color: var(--text-muted);
+  font-style: italic;
+}
