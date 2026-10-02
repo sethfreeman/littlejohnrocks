@@ -21,8 +21,12 @@ export default function Home() {
           <p className="bio-text">
             <strong>Little John</strong> burst onto the Boston music scene of the early 1990s with
             introspective lyrics, sharp, driving guitars, and a rock-solid rhythm section. Fronted
-            by <strong>Seth Freeman</strong>, the band went on to reinvent itself on the West
-            Coast, carrying its melodic rock from Boston basements to Bay Area stages.{' '}
+            by{' '}
+            <a href="https://sethfreemanmusic.com" target="_blank" rel="noopener noreferrer">
+              <strong>Seth Freeman</strong>
+            </a>
+            , the band went on to reinvent itself on the West Coast, carrying its melodic rock from
+            Boston basements to Bay Area stages.{' '}
             <Link href="/about">Read the full story</Link>.
           </p>
         </section>

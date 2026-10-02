@@ -14,11 +14,18 @@ export default function About() {
           <strong>Little John</strong> burst onto the vibrant Boston music scene of the early
           1990s, quickly carving out a distinct sonic identity built on introspective lyrics,
           sharp, driving guitars, and an inventive, rock-solid rhythm section. The original lineup
-          featured <strong>Seth Freeman</strong> and founding bassist <strong>John Bosco</strong>,
+          featured{' '}
+          <a href="https://sethfreemanmusic.com" target="_blank" rel="noopener noreferrer">
+            <strong>Seth Freeman</strong>
+          </a>{' '}
+          and founding bassist <strong>John Bosco</strong>,
           friends from Teaneck, New Jersey, alongside drummer <strong>Brendan Taylor</strong>.
           Their first release, the <em>Scared</em> vinyl single, immediately signaled a blend of
           vulnerability and raw, emotional edge. Soon after, hometown friend{' '}
-          <strong>Stefano Capobianco</strong> took over on bass, cementing the core lineup for the
+          <a href="https://stefanovox.com/" target="_blank" rel="noopener noreferrer">
+            <strong>Stefano Capobianco</strong>
+          </a>{' '}
+          took over on bass, cementing the core lineup for the
           rest of the band&apos;s influential Boston era.
         </p>
         <p>
