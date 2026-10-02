@@ -20,12 +20,12 @@ export default function Epk() {
       <section className="epk-section">
         <h2>About</h2>
         <p>
-          Little John is a melody-driven rock band fronted by Seth Freeman. It emerged on the
+          Little John is a melodic rock band fronted by Seth Freeman. It emerged on the
           Boston scene of the early 1990s — introspective lyrics, driving guitars, a rock-solid
           rhythm section — released the albums <em>Derailer</em> and{' '}
           <em>We&apos;ll Always Have Ohio</em>, then reinvented itself on the West Coast with{' '}
           <em>Too Much Fun</em>. From Boston basements to Bay Area stages, the band is a testament
-          to reinvention, resilience, and the enduring power of melody-driven rock.
+          to reinvention, resilience, and the enduring power of melodic rock.
         </p>
         <p>
           <Link href="/about">Read the full bio</Link>.

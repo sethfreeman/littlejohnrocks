@@ -14,7 +14,7 @@ const courierPrime = Courier_Prime({
 
 export const metadata = {
   title: 'Little John',
-  description: 'Little John — melody-driven rock, from Boston basements to Bay Area stages.',
+  description: 'Little John — melodic rock, from Boston basements to Bay Area stages.',
 }
 
 export default function RootLayout({ children }) {

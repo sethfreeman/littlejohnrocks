@@ -48,7 +48,7 @@ export default function About() {
         </p>
         <p>
           From Boston basements to Bay Area stages, Little John remains a testament to
-          reinvention, resilience, and the enduring power of melody-driven rock.
+          reinvention, resilience, and the enduring power of melodic rock.
         </p>
       </div>
     </div>

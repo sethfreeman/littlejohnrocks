@@ -24,7 +24,7 @@ export default function Music() {
     <div className="music-page">
       <h1>Music</h1>
       <p className="intro">
-        Melody-driven alt-rock, from the Boston scene to the Bay Area. Stream Little John wherever
+        Melodic alt-rock, from the Boston scene to the Bay Area. Stream Little John wherever
         you listen.
       </p>
 
